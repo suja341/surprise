@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Legend 🎉</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<!-- HOME -->
+<div class="screen active" id="home">
+    <h1>🎉 Happy Birthday திரு. அrivu🥰❤️🎉🎂</h1>
+    <button class="gift-btn" onclick="openScreen('gift1')">🔥 Gift 1</button>
+    <button class="gift-btn" onclick="openScreen('gift2')">📸 Gift 2</button>
+    <button class="gift-btn" onclick="openScreen('gift3')">💌 Gift 3</button>
+</div>
+ 
+<!-- GIFT 1 - ROAST QUIZ -->
+<div class="screen" id="gift1">
+    <h1>🔥 Ultimate Roast Quiz 🔥</h1>
+ 
+    <div class="box" id="quizBox">
+        <p id="question"></p>
+ 
+        <div class="option" onclick="selectAnswer(0)"></div>
+        <div class="option" onclick="selectAnswer(1)"></div>
+        <div class="option" onclick="selectAnswer(2)"></div>
+    </div>
+ 
+    <p id="result"></p>
+    <button class="gift-btn back" onclick="openScreen('home')">⬅ Back</button>
+</div>
+ 
+<!-- GIFT 2 - PHOTO + MESSAGE -->
+<div class="screen" id="gift2">
+    <h1>📸 The Birthday Star</h1>
+ 
+    <img src="../Arivu/images/Arivu's pic.jpg" class="photo">
+ 
+    <div class="box">
+        Here’s the face that causes 90% of my laughter😂❤️<br><br>
+        Certified lazy fellow ✔<br>
+        Drama king ✔<br>
+        But still my favorite human ✔<br><br>
+        Stay confident. Stay crazy. Stay YOU.
+    </div>
+ 
+    <button class="gift-btn back" onclick="openScreen('home')">⬅ Back</button>
+</div>
+ 
+<!-- GIFT 3 - SWEET MESSAGE -->
+<div class="screen" id="gift3">
+    <h1>💌 For You</h1>
+ 
+    <div class="box">
+        Happy 25th Birthday, Arivu anna ❤️🎂<br><br>
+        You may act lazy…<br>
+  You may live inside movie scenes 🎬<br>
+But you’ve always been someone I quietly rely on.<br>
+You don’t show it much,
+but you care in your own silent way —
+and that means a lot to me.<br><br>
+As you turn 25,
+I pray you stay healthy, strong, and peaceful.<br>
+May this year bring you success, good income,
+and growth in everything you do. 💼✨<br>
+May you earn well, live well,
+and finally get up from the couch sometimes. 😌<br><br>
+And who knows…
+Maybe this year you’ll get a new girl 👀💖<br>
+For her, at least, you might start waking up early
+and reducing movie time a little. 😂🎬<br>
+Wishing you love, laughter,
+wealth, health and maybe a beautiful love story too.<br>
+Always your little sister💛<br><br>
+        Happy Birthday once again ❤️🎂
+    </div>
+ 
+    <button class="gift-btn back" onclick="openScreen('home')">⬅ Back</button>
+</div>
+ 
+<script src="script.js"></script>
+</body>
+</html>
+ 
